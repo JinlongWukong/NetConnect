@@ -11,7 +11,7 @@ version 2.0: 2018/05/02  -> add support for connection to nso(Modify based on ne
 
 ## How To Use:
 Please define devices into test.yaml which is used by pyats framework, below is the example parameters  
-Notes: os                           -> specify device type which should follow netmiko keyword, please search netmiko website for details  
+    Notes: os                           -> specify device type which should follow netmiko keyword, please search netmiko website for details  
          passwords.tacacs             -> given username's passwords  
          passwords.enable             -> enable passwords if needed  
          connections.defaults.class   -> specify connections class used by rasta, so here should be netconnect.Netconnect   
