@@ -14,9 +14,9 @@ Please define devices into test.yaml which is used by pyats framework, below is 
     Notes:   
 &#8195; os                           -> specify device type which should follow netmiko keyword, please search netmiko website for details  
 &#8195; passwords.tacacs             -> given username's passwords  
-         passwords.enable             -> enable passwords if needed  
-         connections.defaults.class   -> specify connections class used by rasta, so here should be netconnect.Netconnect   
-         connections.defaults.cli     -> specify device connection information, the ip and port is needed  
+&#8195; passwords.enable             -> enable passwords if needed  
+&#8195; connections.defaults.class   -> specify connections class used by rasta, so here should be netconnect.Netconnect   
+&#8195; connections.defaults.cli     -> specify device connection information, the ip and port is needed  
 ```
 Example .yaml:
   ASR9K-v2-0:
