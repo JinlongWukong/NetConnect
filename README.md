@@ -1,8 +1,8 @@
 Date: 2018 04/29
 
 ## Introduction:
-netconnect is based on netmiko libary, define new api to used by rasta framework.  
-netconnect is used by rasta to connect devices, supported devices depend on netmiko feature, mainly include all cisco devices, linux etc ...
+- netconnect is based on netmiko libary, define new api to used by rasta framework.  
+- netconnect is used by rasta to connect devices, supported devices depend on netmiko feature, mainly include all cisco devices, linux etc ...
 
 ## Version History:
 version 1.0: 2018/04/29  -> first build  
